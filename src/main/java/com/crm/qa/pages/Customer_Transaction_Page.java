@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.crm.qa.base.TestBase;
+
 public class Customer_Transaction_Page extends Customer_Withdraw_Page {
     
     @FindBy(xpath = "//button[@ng-class='btnClass1']")

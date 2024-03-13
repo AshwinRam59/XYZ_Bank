@@ -1,5 +1,7 @@
 package com.crm.qa.testcases;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import java.util.Arrays;
 import java.util.List;
 
@@ -29,6 +31,7 @@ public class Customer_Transaction_test extends Manager_OpenAccount_page {
 		super();
 	}
 	
+
 	@BeforeMethod
 	public void setUp() {
 		initialization();

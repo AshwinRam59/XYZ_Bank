@@ -3,12 +3,14 @@
 <suite name="AXIS BANK CAPSTONE PROJECT Suite">
   <test thread-count="5" name="Test_NG">
     <classes>
-      <class name="com.crm.qa.testcases.Customer_Transaction_test"/>
-      <class name="com.crm.qa.testcases.Customer_Withdarw_test"/>
-      <class name="com.crm.qa.testcases.Customer_Deposit_test"/>
+	   <class name="com.crm.qa.testcases.Manager_AddCustomer_test"/>
+       <class name="com.crm.qa.testcases.Manager_AddCustomerInvalid_test"/>
       <class name="com.crm.qa.testcases.Manager_Customers_test"/>
-      <class name="com.crm.qa.testcases.Manager_AddCustomer_test"/>
       <class name="com.crm.qa.testcases.Manager_OpenAccount_test"/>
+      <class name="com.crm.qa.testcases.Customer_Deposit_test"/>
+      <class name="com.crm.qa.testcases.Customer_Withdarw_test"/>
+      <class name="com.crm.qa.testcases.Customer_Transaction_test"/>
+
     </classes>
   </test> <!-- Test_NG -->
 </suite> <!-- Suite -->

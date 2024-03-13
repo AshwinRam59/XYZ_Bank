@@ -1,10 +1,9 @@
 package com.crm.qa.testcases;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import java.util.Arrays;
 import java.util.List;
-
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
 
 import com.crm.qa.pages.Customer_Login_Page;
 import com.crm.qa.pages.Manager_AddCustomer_Page;

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-13T12:03:28 IST" name="AXIS BANK CAPSTONE PROJECT Suite" finished-at="2024-03-13T12:04:27 IST" duration-ms="58922">
+    <groups>
+    </groups>
+    <test started-at="2024-03-13T12:03:28 IST" name="Test_NG" finished-at="2024-03-13T12:04:27 IST" duration-ms="58922">
+      <class name="com.crm.qa.testcases.Manager_AddCustomerInvalid_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Manager_AddCustomerInvalid_test@15bb5034]" started-at="2024-03-13T12:03:35 IST" name="setUp" finished-at="2024-03-13T12:03:38 IST" duration-ms="2972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddCustomerFunctionality()[pri:0, instance:com.crm.qa.testcases.Manager_AddCustomerInvalid_test@15bb5034]" started-at="2024-03-13T12:03:38 IST" name="verifyAddCustomerFunctionality" finished-at="2024-03-13T12:03:40 IST" duration-ms="2414" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message is not displayed for invalid data expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message is not displayed for invalid data expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at com.crm.qa.testcases.Manager_AddCustomerInvalid_test.verifyAddCustomerFunctionality(Manager_AddCustomerInvalid_test.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCustomerFunctionality -->
+      </class> <!-- com.crm.qa.testcases.Manager_AddCustomerInvalid_test -->
+      <class name="com.crm.qa.testcases.Manager_AddCustomer_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Manager_AddCustomer_test@25641d39]" started-at="2024-03-13T12:03:28 IST" name="setUp" finished-at="2024-03-13T12:03:32 IST" duration-ms="3813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddCustomerFunctionality()[pri:0, instance:com.crm.qa.testcases.Manager_AddCustomer_test@25641d39]" started-at="2024-03-13T12:03:32 IST" name="verifyAddCustomerFunctionality" finished-at="2024-03-13T12:03:35 IST" duration-ms="3283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCustomerFunctionality -->
+      </class> <!-- com.crm.qa.testcases.Manager_AddCustomer_test -->
+      <class name="com.crm.qa.testcases.Manager_OpenAccount_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Manager_OpenAccount_test@f1da57d]" started-at="2024-03-13T12:03:49 IST" name="setUp" finished-at="2024-03-13T12:03:52 IST" duration-ms="2989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OpenAccountCustomerTest()[pri:0, instance:com.crm.qa.testcases.Manager_OpenAccount_test@f1da57d]" started-at="2024-03-13T12:03:52 IST" name="OpenAccountCustomerTest" finished-at="2024-03-13T12:03:57 IST" duration-ms="5312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAccountCustomerTest -->
+      </class> <!-- com.crm.qa.testcases.Manager_OpenAccount_test -->
+      <class name="com.crm.qa.testcases.Manager_Customers_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Manager_Customers_test@480d3575]" started-at="2024-03-13T12:03:40 IST" name="setUp" finished-at="2024-03-13T12:03:44 IST" duration-ms="3400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OpenAccountCustomerTest()[pri:0, instance:com.crm.qa.testcases.Manager_Customers_test@480d3575]" started-at="2024-03-13T12:03:44 IST" name="OpenAccountCustomerTest" finished-at="2024-03-13T12:03:49 IST" duration-ms="5020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAccountCustomerTest -->
+      </class> <!-- com.crm.qa.testcases.Manager_Customers_test -->
+      <class name="com.crm.qa.testcases.Customer_Deposit_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Customer_Deposit_test@72c8e7b]" started-at="2024-03-13T12:04:18 IST" name="setUp" finished-at="2024-03-13T12:04:21 IST" duration-ms="2494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DepositCustomerTest()[pri:0, instance:com.crm.qa.testcases.Customer_Deposit_test@72c8e7b]" started-at="2024-03-13T12:04:21 IST" name="DepositCustomerTest" finished-at="2024-03-13T12:04:27 IST" duration-ms="5897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DepositCustomerTest -->
+      </class> <!-- com.crm.qa.testcases.Customer_Deposit_test -->
+      <class name="com.crm.qa.testcases.Customer_Transaction_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Customer_Transaction_test@194fad1]" started-at="2024-03-13T12:03:57 IST" name="setUp" finished-at="2024-03-13T12:04:00 IST" duration-ms="2555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DepositCustomerTest()[pri:0, instance:com.crm.qa.testcases.Customer_Transaction_test@194fad1]" started-at="2024-03-13T12:04:00 IST" name="DepositCustomerTest" finished-at="2024-03-13T12:04:09 IST" duration-ms="8838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DepositCustomerTest -->
+      </class> <!-- com.crm.qa.testcases.Customer_Transaction_test -->
+      <class name="com.crm.qa.testcases.Customer_Withdarw_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Customer_Withdarw_test@26abb146]" started-at="2024-03-13T12:04:09 IST" name="setUp" finished-at="2024-03-13T12:04:12 IST" duration-ms="3028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DepositCustomerTest()[pri:0, instance:com.crm.qa.testcases.Customer_Withdarw_test@26abb146]" started-at="2024-03-13T12:04:12 IST" name="DepositCustomerTest" finished-at="2024-03-13T12:04:18 IST" duration-ms="6817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DepositCustomerTest -->
+      </class> <!-- com.crm.qa.testcases.Customer_Withdarw_test -->
+    </test> <!-- Test_NG -->
+  </suite> <!-- AXIS BANK CAPSTONE PROJECT Suite -->
+</testng-results>

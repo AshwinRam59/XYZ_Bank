@@ -1,14 +1,10 @@
 package com.crm.qa.testcases;
 
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
+import org.testng.annotations.BeforeMethod;
 import com.crm.qa.pages.Manager_AddCustomer_Page;
 import com.crm.qa.pages.Manager_Customer_page;
 import com.crm.qa.pages.Manager_OpenAccount_page;
-
-
-
 
 public class Manager_OpenAccount_test extends Manager_OpenAccount_page {
 	Manager_AddCustomer_Page Manag_AddcustPage;
@@ -19,6 +15,7 @@ public class Manager_OpenAccount_test extends Manager_OpenAccount_page {
 		super();
 	}
 	
+
 	@BeforeMethod
 	public void setUp() {
 		initialization();
@@ -42,5 +39,5 @@ public class Manager_OpenAccount_test extends Manager_OpenAccount_page {
 		System.out.println("Error - Please select an item in the list");
 		
 		ManagCustpage.CustomersTabletest();
-		System.out.println("Customer Ashwin Deleted from list");
+		System.out.println("Customer Hermoine Granger  Deleted from list");
 	}}
